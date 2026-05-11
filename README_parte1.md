@@ -151,6 +151,57 @@ const usuarios = [
 ```
 
 ---
+# Componentes do sistema
+
+## App
+
+O componente `App` é o componente principal da aplicação.
+
+### Responsabilidades
+
+- Controlar os estados da aplicação
+- Gerenciar os livros e usuários
+- Controlar formulários
+- Realizar cadastro, edição e exclusão de livros
+- Controlar empréstimos e devoluções
+- Exibir mensagens para o usuário
+
+### Dados consumidos
+
+O componente consome:
+
+- Lista de livros
+- Lista de usuários
+- Estados dos formulários
+- Estados de empréstimo
+- Estados de edição
+
+---
+
+## LivroCard
+
+O componente `LivroCard` é responsável por exibir as informações de cada livro.
+
+### Responsabilidades
+
+- Mostrar dados do livro
+- Exibir status de disponibilidade
+- Mostrar qual usuário realizou o empréstimo
+- Permitir editar livros
+- Permitir excluir livros
+- Permitir devolução de livros
+
+### Dados consumidos
+
+O componente consome:
+
+- Dados individuais do livro
+- Lista de usuários
+- Funções de edição
+- Funções de exclusão
+- Funções de devolução
+
+---
 
 # Funcionalidades do sistema
 
@@ -172,16 +223,6 @@ O sistema permite:
 - React
 - JavaScript
 - Tailwind CSS
+  #O Tailwind CSS foi utilizando pois foi implementado automaticamente pelo ambiente virtual utilizado,e facilitar a estilização de organização do site.
 
 ---
-
-# Objetivo do projeto
-
-O objetivo do projeto é simular um sistema simples de gerenciamento de biblioteca utilizando React, aplicando conceitos como:
-
-- Componentização
-- Estados com useState
-- Manipulação de arrays
-- Renderização dinâmica
-- Gerenciamento de formulários
-- Controle de empréstimos
