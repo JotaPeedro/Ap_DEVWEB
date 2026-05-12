@@ -73,26 +73,6 @@ Os seguintes campos presentes nos JSONs mockados também estão presentes nos mo
 - `id_livro`
 - `data_emprestimo`
 
----
-
-## Campos omitidos
-
-Alguns campos utilizados apenas para exibição no front-end não serão armazenados diretamente na API, evitando redundância de informações.
-
-Exemplo:
-- status visuais
-- textos formatados para interface
-
----
-
-## Campos adicionados
-
-Alguns campos adicionais serão necessários no back-end para controle interno do sistema:
-
-### Livro
-- `id`
-- `disponivel`
-
 ### Usuário
 - `id`
 - `tipo_usuario`
